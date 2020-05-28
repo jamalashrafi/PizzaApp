@@ -1,0 +1,36 @@
+.storeLocator{
+
+    &__inputCol {
+        
+
+        input { 
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 3%;
+            padding: .2rem 1rem;
+            border: none;
+            border-bottom: 1px solid black;
+            font-size: $default-font-size;
+
+        }
+    }
+
+    &__jumbotron {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 3%;
+
+        img{
+            width:100%;
+            height: 15rem;
+            object-fit: cover;
+           
+        }
+        &__div > span{
+            font-size: $default-font-size;
+            color: $color-primary;
+            font-weight:bold;
+            margin-left: 1rem;
+        }
+    }
+}

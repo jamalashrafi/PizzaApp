@@ -23,8 +23,7 @@ const NavBar = () => {
                             <Link to="/aboutus" >AboutUs</Link></Nav.Item>
 						<Nav.Item className="navbar__collapse__nav__item">
                             <Link to="/contact" >ContactUs</Link></Nav.Item>
-                        <Button variant="success" className="navbar__collapse__nav__btn">
-                            Login</Button>
+                        
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
