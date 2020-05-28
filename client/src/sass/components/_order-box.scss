@@ -1,0 +1,199 @@
+.orderBox {
+    background-color: rgba($color-white, .8);
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: transform .3s;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    position: relative;
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+   }
+   &__paragraph{
+        height: 8rem;
+   }
+   &__heading{
+    height: 5rem;
+   }
+   &__image{
+        height: 21rem;
+   }
+}
+
+.orderPizza {
+     background-color: rgba($color-white, .8);
+     font-size: 1.5rem;
+     border-radius: 3px;
+     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+     &__image{
+          object-fit: cover;
+          width: 100%;
+          height: 15rem;
+          display: inline-block;
+     }
+
+     &__subdiv {
+          padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+
+          &__span{
+               position: absolute;
+               color: $color-white;
+               top: 11rem;
+               font-weight: bold;
+               font-size: 2rem;
+          }
+
+          &__paragraph{
+               color: $color-black;
+               font-weight: bold;
+               border-bottom: 1px solid $color-grey-light-1;
+          }
+          &__btn{
+               width: 100%;
+          }
+
+          &__div{
+               display:flex;
+               align-items: horizontal;
+               margin-bottom: 1rem;
+
+               &__count{
+                    border: 1px solid #A9A9A9;
+                    text-align: center;
+                    padding: 0 .5rem;
+
+                    &__span{
+                         font-size:1.2rem;
+                         font-weight: bold;
+                    }
+
+                    &__btn{
+                         margin-left: auto; 
+                    }
+               }
+          }
+
+     }
+  
+ }
+
+ .base{
+     background-color: rgba($color-white, .8);
+     border-radius: 3px;
+     border: 0.16rem solid $color-secondry;
+     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+     
+     &__orderCart{
+          padding: 1.5rem;
+
+          &__container{
+               border-bottom : 1px dotted $color-grey-light-1;
+          }
+
+          &__div{
+               display:flex;
+               align-items: horizontal;
+               margin-bottom: 1rem;
+               
+               &__img{
+                    border-radius: 5px;
+                    height: 5rem;
+               }
+
+               &__subDiv{
+               margin-left: 1rem;
+               display: flex;
+               flex-direction: column;
+
+               &__span{
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: $color-black;
+               }
+               &__sizeSpan{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    margin-top: 1rem;
+               }
+               }
+          }
+
+          &__count{
+               display:flex;
+               align-items: horizontal;
+               margin-bottom: 1rem;
+
+               &__quantityDiv{
+                    border: 1px solid #A9A9A9;
+                    text-align: center;
+                    padding: 0 .5rem;
+
+                    &__span{
+                         font-size:1.2rem;
+                         font-weight: bold;
+                    }
+
+                    &__langDiv{
+                         margin-left: auto;
+                    }
+               }
+
+          }
+      
+     }
+ }
+
+ .postCartContainer{
+     display: flex;
+     flex-direction: column;
+     -webkit-box-pack: center;
+     justify-content: center;
+     position: absolute;
+     left: 1.8rem;
+     bottom: 0px;
+     width: 87%;
+     height: 6rem;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px -0.56rem 0.62rem 0px;
+     background: rgb(239, 245, 251);
+     padding: 1rem 0rem;
+
+     &__text{
+          width: 100%;
+          position: absolute;
+          top: 1rem;
+          display: flex;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          -webkit-box-align: baseline;
+          align-items: baseline;
+          &__subtotal{
+               font-size: 1.3rem;
+               font-weight: bold;
+               margin-left: 1rem;
+
+               &__span{
+                    font-size: 1.1rem;
+                    font-weight:600;
+               }
+          }
+          &__cash{
+               font-size: 1.2rem;
+               font-weight: bold;
+               margin-right: 1rem;
+          }
+     }
+
+     &__btn{
+          width: 100%;
+          display: flex;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          -webkit-box-align: baseline;
+          align-items: baseline; 
+          margin-top: 3rem;
+          font-size: 5.7rem;
+     }
+ }

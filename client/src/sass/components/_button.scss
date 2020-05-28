@@ -1,0 +1,13 @@
+.btnMain {
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    font-size: $default-font-size;
+    background-color: $color-primary;
+    border-radius: 1.5rem;
+    color: $color-white;
+   
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+}

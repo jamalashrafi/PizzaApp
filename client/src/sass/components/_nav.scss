@@ -1,0 +1,28 @@
+.navbar{
+    background-color: $color-primary;
+    a {
+        text-decoration: none;
+        color: $color-white;
+        font-size: $default-font-size;
+    }
+
+    &__brand{
+        padding: 1.4rem 2.5rem;
+    }
+
+    &__collapse{
+
+        margin-left: 7.5rem;
+
+        &__nav__item{
+            a { padding:1.4rem 2.5rem; }
+        }
+        &__nav__btn {
+            display: block;
+           padding: 0.5rem 2rem 0.5rem 2rem;
+           color: $color-white;
+           font-size: $default-font-size;
+        }
+    }
+
+}

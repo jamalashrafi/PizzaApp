@@ -1,0 +1,11 @@
+.u-center-text { text-align: center; }
+.utilMarginBottomSmall { margin-bottom: 1.7rem; }
+.utilMarginTop { margin-top: 6rem; }
+.u-margin-bottom-big { margin-bottom: 8rem; }
+.linkMain {
+    text-decoration: none; color: $color-white;
+
+    &:link, &:visited {
+        text-decoration: none; color: $color-white; 
+    }
+}
