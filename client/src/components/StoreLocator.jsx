@@ -15,7 +15,7 @@ const StoreLocator = () => {
     const handleChange = event => setsearch(event.target.value);
 
     const searchRestaurant = (event) => {
-        debugger;
+        
         event.preventDefault();
         dispatch(actions.fetchCityId(search, city_Id => {
             dispatch(actions.fetchStoreList(city_Id));
